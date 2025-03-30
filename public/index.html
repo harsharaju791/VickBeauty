@@ -4,52 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VICK Beauty LLC</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Header Section -->
     <header>
-        <h1>Welcome to VICK Beauty LLC</h1>
-        <p>Your #1 Source for Manicure, Pedicure, and Grooming Products</p>
+        <div class="logo">VICK Beauty LLC</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="shop.html">Shop</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-    </nav>
 
-    <section class="banner">
-        <h2>Premium Manicure, Pedicure, and Grooming Tools</h2>
-        <p>Imported from Asia - Providing the Best Quality Since Day One</p>
-    </section>
-
-    <section class="products">
-        <h2>Our Products</h2>
-        <div class="product-list">
-            <div class="product">
-                <img src="assets/manicure-set.jpg" alt="Manicure Set">
-                <h3>Manicure & Pedicure Set</h3>
-                <p>High-quality tools for nail care and grooming.</p>
-            </div>
-
-            <div class="product">
-                <img src="assets/razors.jpg" alt="Razors & Blades">
-                <h3>Razors & Blades</h3>
-                <p>Premium razors for men and women for a smooth shave.</p>
-            </div>
-
-            <div class="product">
-                <img src="assets/nail-clippers.jpg" alt="Nail Clippers">
-                <h3>Professional Nail Clippers</h3>
-                <p>Durable stainless steel clippers for perfect nail trimming.</p>
-            </div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Premium Manicure & Pedicure Tools</h1>
+            <p>Imported from Asia, crafted with perfection.</p>
+            <a href="#products" class="btn">Shop Now</a>
         </div>
     </section>
 
+    <!-- Products Section -->
+    <section id="products">
+        <h2>Our Products</h2>
+
+        <!-- Barber Supplies -->
+        <div class="category">
+            <h3>Barber Supplies</h3>
+            <div class="product-container">
+                <div class="product">
+                    <img src="razor.jpg" alt="Professional Razor">
+                    <h4>Professional Razor</h4>
+                    <p>$9.99</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="product">
+                    <img src="scissors.jpg" alt="Hair Cutting Scissors">
+                    <h4>Hair Cutting Scissors</h4>
+                    <p>$14.99</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Salon Supplies -->
+        <div class="category">
+            <h3>Salon Supplies</h3>
+            <div class="product-container">
+                <div class="product">
+                    <img src="nipper.jpg" alt="Nail Nipper">
+                    <h4>Nail Nipper</h4>
+                    <p>$12.99</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="product">
+                    <img src="tweezer.jpg" alt="Precision Tweezer">
+                    <h4>Precision Tweezer</h4>
+                    <p>$7.99</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Spa Supplies -->
+        <div class="category">
+            <h3>Spa Supplies</h3>
+            <div class="product-container">
+                <div class="product">
+                    <img src="filer.jpg" alt="Nail Filer">
+                    <h4>Nail Filer</h4>
+                    <p>$5.99</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="product">
+                    <img src="pusher.jpg" alt="Cuticle Pusher">
+                    <h4>Cuticle Pusher</h4>
+                    <p>$4.99</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="product">
+                    <img src="cutter.jpg" alt="Nail Cutter">
+                    <h4>Nail Cutter</h4>
+                    <p>$6.99</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>VICK Beauty LLC specializes in high-quality manicure and pedicure tools. We import our products from Asia, ensuring the best materials and craftsmanship.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:vickbeauty@gmail.com">vickbeauty@gmail.com</a></p>
+        <p>Phone: 508-897-7771</p>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>Contact us: vickbeauty@gmail.com | Phone: 508-897-7771</p>
-        <p>Wholesale & Retail | Imported from Asia</p>
+        <p>&copy; 2025 VICK Beauty LLC. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
